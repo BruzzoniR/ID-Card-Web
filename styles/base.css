@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to left top, #a11818, #ba003a, #c50069, #b700a7, #7212eb);
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    width: 80%;
+}
+
+.texto{
+    width: 60%;
+    font-weight: 400;
+    color: white;
+}
+
+.titulo{
+    font-family: 'Press Start 2P', Helvetica, sans-serif;
+    font-size: 4rem;
+    text-shadow: 0.2rem 0.2rem 0.1rem #232323;
+}
+
+.foto{
+    height: 30rem;
+    border: #ffffff solid 0.1rem;
+    border-radius: 1rem;
+    background-color: rgba(245, 245, 220, 0.311);
+    box-shadow: 0.2rem 0.2rem 0.9rem #232323;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+@media screen and (min-width: 0) {
+    .titulo{
+        font-size: 3rem;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .titulo{
+        font-size: 4rem;
+    }
+    .texto{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .titulo{
+        font-size: 5rem;
+    }
+    .texto{
+        font-size: 1.5rem;
+    }
+}
